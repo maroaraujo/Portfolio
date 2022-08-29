@@ -1,0 +1,207 @@
+.planet{
+  position: absolute;
+  right: -10vw;
+  height: 25vw;
+  top:-15vh
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+.logo{
+  height: 2.5vw
+}
+
+
+
+.header {
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  gap: 10vw;
+  margin-top: 20px;
+  color: white;
+  padding: -200px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.blur{
+  position: absolute;
+  z-index: -1;
+  top:-50px;
+  width: 100%;
+}
+.world{
+  height: auto;
+  padding: 0vw 3vw 0vh;
+  margin-top: -3vh;
+}
+.cv{
+  color: white;
+  font-size: large;
+  background: rgb(41,87,163);
+background: linear-gradient(90deg, rgba(201,97,222,1)  0%, rgba(41,87,163,1) 100%);
+width: 200px;
+height: 45px;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -75px;
+}
+
+.welcome{
+  color: white;
+  font-size: 4vw;
+  margin-bottom: -26vh;
+  margin-left: 4vw;
+  line-height: 100%;
+}
+/* .aboutme-session{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+} */
+.aboutmeplanet{
+  width: 100%;
+  padding-left: 2vw;
+  margin-top: -10%;
+}
+.aboutme-session{
+  /* background-color: blue; */
+ position: relative;
+}
+.textAbout{
+  /* background-color: green; */
+  position: absolute;
+  top: 40%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  /* width: 25vw /5; */
+  padding: 4vh;
+  font-size: 100%;
+}
+/* This is to put the text about me inside de circle */
+svg {
+  margin: auto;
+  width: 50%;
+  min-width: 320px;
+  max-height: 100%;
+}
+
+svg circle {
+  fill: red;
+  mix-blend-mode: multiply;
+}
+
+.shape {
+  height: 100%;
+  width: 50px;
+  shape-margin: 2.6px;
+}
+
+.shape-left {
+  float: left;
+  shape-outside: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/circle-left.svg);
+}
+
+.shape-right {
+  float: right;
+  shape-outside: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/circle-right.svg);
+}
+
+.text {
+  font-size: 3.9px;
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  line-height: 1.6;
+  color: white;
+  font-family: 'Lato';
+  hyphens: auto;
+  text-shadow: 0 .2px .3px rgba(0,0,0,.3);
+}
+
+p { 
+  margin: 0; 
+  text-align: justify;
+  text-align-last: center;
+}
+
+h1 {
+  font-size: 7px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+
+/* 
+
+.aboutme {
+  margin-right: -20vw;
+  margin-top: -10vh;
+  margin-left: 3vw ;
+  z-index:1;
+}
+
+
+
+.welcome{
+  color: white;
+  top:20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.welcome{
+  position: absolute;
+  color: white;
+  left: 20px;
+  top: 10px;
+  font-size: 7vh;
+}
+
+.world{
+  height: auto;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  z-index:1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
