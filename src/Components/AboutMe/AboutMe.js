@@ -11,7 +11,7 @@ function AboutMe() {
       <img className="aboutmeplanet" src={aboutme} alt={"aboutme"} />
       <div className="textAbout">
         <h4 contenteditable>About Me</h4>
-        <p contenteditable className="p-about">{textAboutMe}</p>
+        <p >{textAboutMe}</p>
       </div>
       
     </div>
