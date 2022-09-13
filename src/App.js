@@ -6,23 +6,25 @@ import blur from "./img/blur.png";
 import planet from "./img/planet on top.png";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Button from "./Components/Button/Button";
-import ProjectBG from "./img/Projects.png" 
+import ProjectBG from "./img/Projects.png";
+import Skills from "./Components/Skills/Skills";
+import ProjectsSwiper from "./Components/ProjectsSwiper/ProjectsSwiper";
 
 function App() {
   return (
-    <div className="site">
+    <div className="App">
+      <Header />
       <img className="planet" src={planet} alt={"planet"} />
       <img className="blur" src={blur} alt={"blur"} />
       {/* <Image className="planet" src={planet} alt={"planet"}/> */}
-      <Header />
-      <div className="App">
-        {/* <Image className="world" src={world} alt={"myworld"}/> */}
-        {/* <Welcome className="welcome"/> */}
-        <img className="world" src={world} alt={"myworld"} />
-        <AboutMe />
-        <Button className="cv" />
-        <img src={ProjectBG} alt={"projects"}/>
-      </div>
+      {/* <Image className="world" src={world} alt={"myworld"}/> */}
+      {/* <Welcome className="welcome"/> */}
+      <img className="world" src={world} alt={"myworld"} />
+      <AboutMe />
+      <Button className="cv" />
+      <img className="projects" src={ProjectBG} alt={"projects"} />
+      <ProjectsSwiper/>
+      <Skills />
     </div>
   );
 }
