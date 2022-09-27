@@ -11,7 +11,13 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
 }
-
+:root{
+  --color-bg: #0F103F;
+  --color-primary: linear-gradient(90deg, rgba(201,97,222,1)  0%, rgba(41,87,163,1) 100%);
+  --color-primary-variant: #2957A3;
+  --color-white: #fff;
+  --color-light: linear-gradient(90deg, #B5F9FD  42%, #fff 100%)
+}
 code {
   font-family: 'Poppins', sans-serif, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

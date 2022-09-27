@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 
-export default function ProjectsSwiper(props) {
+export default function ProjectSwiper({src, alt, className}) {
   return (
     <div className="container">
       <Swiper
@@ -29,10 +29,10 @@ export default function ProjectsSwiper(props) {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className={props.className}
+        className={className}
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="image1" />
+          <img src={src} alt={alt} />
         </SwiperSlide>
         <SwiperSlide >
           <h3>Reconnect App</h3>

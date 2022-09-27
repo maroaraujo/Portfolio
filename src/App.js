@@ -8,7 +8,8 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import Button from "./Components/Button/Button";
 import ProjectBG from "./img/Projects.png";
 import Skills from "./Components/Skills/Skills";
-import ProjectsSwiper from "./Components/ProjectsSwiper/ProjectsSwiper";
+import ProjectSwiper from "./Components/ProjectsSwiper/ProjectsSwiper";
+import Title from "./Components/Title/Title";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <AboutMe />
       <Button className="cv" />
       <img className="projects" src={ProjectBG} alt={"projects"} />
-      <ProjectsSwiper/>
+      <Title>Projects</Title>
+      {/* <ProjectSwiper className="mySwiper"/> */}
       <Skills />
     </div>
   );
