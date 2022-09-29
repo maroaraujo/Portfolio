@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./Components/Header.js/Header";
+import Header from "./Components/Header/Header.jsx";
 import world from "./img/world.png";
 //import Image from './Components/Image/Image';
 import blur from "./img/blur.png";
@@ -8,7 +8,7 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import Button from "./Components/Button/Button";
 import ProjectBG from "./img/Projects.png";
 import Skills from "./Components/Skills/Skills";
-import ProjectSwiper from "./Components/ProjectsSwiper/ProjectsSwiper";
+// import ProjectSwiper from "./Components/ProjectsSwiper/ProjectsSwiper";
 import Title from "./Components/Title/Title";
 
 function App() {
@@ -23,8 +23,9 @@ function App() {
       <img className="world" src={world} alt={"myworld"} />
       <AboutMe />
       <Button className="cv" />
+      <Title title="Projects"></Title>
       <img className="projects" src={ProjectBG} alt={"projects"} />
-      <Title>Projects</Title>
+      
       {/* <ProjectSwiper className="mySwiper"/> */}
       <Skills />
     </div>

@@ -3,6 +3,7 @@ import logo from "../../img/Logo.png"
 
 function Header() {
   return (
+    <header>
     <div className='header'>
         <div>Home</div>
         <div>About</div>
@@ -10,6 +11,7 @@ function Header() {
         <div>Work</div>
         <div>Contact</div>
     </div>
+    </header>
   )
 }
 

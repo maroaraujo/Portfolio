@@ -20,6 +20,7 @@ function AboutMe() {
 
 export default AboutMe;
 
+// eslint-disable-next-line
 {/* 
 
 <svg viewBox="0 0 100 100">
